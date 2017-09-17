@@ -6,7 +6,7 @@ io io.launcher io.sockets.secure io.encodings.private
 io.encodings.ascii io.pipes
 formatting calendar namespaces json.reader
 sequences sequences.generalizations splitting strings ;
-IN: btc-e-api
+IN: wex-api
 
 SYMBOLS: key secret datatype ;
 
