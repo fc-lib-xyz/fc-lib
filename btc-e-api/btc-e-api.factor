@@ -37,7 +37,7 @@ last 9 tail ;
 : private-api-connect ( query -- result )
  dup "application/x-www-form-urlencoded" <post-data>
  swap string>byte-array-fast >>data
- "https://btc-e.nz/tapi" <post-request>
+ "https://wex.nz/tapi" <post-request>
  getkey "Key" set-header
  swap secret-hash "Sign" set-header
  http-request nip getdt [ json> ] when ;
@@ -80,7 +80,7 @@ PRIVATE>
 <PRIVATE
 
 : pub-api3-con ( pairs-array method limit -- q )
-swap "https://btc-e.nz/api/3/" "/" surround 2over swap "-" join swap
+swap "https://wex.nz/api/3/" "/" surround 2over swap "-" join swap
 dup number?  [ "?limit=" swap number>string append ] when 3append
 2nip http-get nip getdt [ json> ] when ;
 
