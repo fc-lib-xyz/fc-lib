@@ -1,1 +1,1 @@
-API from bitcon exchange http://btc-e.com .
+API from bitcon exchange http://wex.nz (ex. btc-e.com) .
