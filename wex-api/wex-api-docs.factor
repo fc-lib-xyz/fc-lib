@@ -1,13 +1,13 @@
 ! Copyright (C) 2017 yura@fc-lib.xyz.
 ! See http://factorcode.org/license.txt for BSD license.
 USING: help.markup help.syntax strings ;
-IN: btc-e-api
+IN: wex-api
 
-ARTICLE: "btc-e-api" "btc-e-api"
-{ $vocab-link "btc-e-api" }
+ARTICLE: "wex-api" "wex-api"
+{ $vocab-link "wex-api" }
 ;
 
-ABOUT: "btc-e-api"
+ABOUT: "wex-api"
 
 HELP: setkey
 { $values { "key" string } }
